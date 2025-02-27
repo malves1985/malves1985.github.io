@@ -1,0 +1,149 @@
+body {
+  font-size: 12px;
+  background-image: url('https://viagemeturismo.abril.com.br/wp-content/uploads/2017/01/belem-tower-2809818_1920.jpg');
+}
+
+#home {display:block;}
+#contact {display:none;}
+#about {display:none;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 12px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+#btnSearch,#btnClear {
+    background-color: #4CAF50;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    padding: 12px 12px;
+    border-radius: 5px;
+    word-spacing: 10px;
+}
+
+#search {
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    padding: 12px 12px;
+    border-radius: 15px;
+    word-spacing: 10px;
+}
+
+#content1, #content2 {
+    float: left;
+    margin-top: 120px;
+    word-spacing: 10px;
+    width: 800px;
+    height: 600px;
+}
+
+#content1 {
+    width: 40%;
+    float: left;
+    margin-left: 50px;
+}
+
+#content2 {
+    width: 50%;
+    float: left;
+    width: 700px;
+    height: 500px;
+}
+
+#content3 {
+    float: left;
+    margin-left: 200px;
+    margin-top: 120px;
+    word-spacing: 10px;
+    width: 800px;
+    height: 600px;
+}
+
+#info {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 55px;
+    margin-left: 20px;
+}
+
+#info2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+#infoContact{
+    width: 400px;
+    height: 350px;
+    background-color: rgba(124, 124, 124, 0.4);
+    border: white;
+}
+
+
+#infoContact label{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+#infoContact input{
+    background-color: transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+    width: 200px;
+    border:1px solid white;
+    border-radius: 5px;
+}
+
+#infoContact textarea {
+    background-color: transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+    width: 200px;
+    border:1px solid white;
+    border-radius: 5px;
+}
+
+#contentList {
+    background-color: white;
+}
+
+#localDesc h1{
+    color: black;
+}
+
+#localDesc h3{
+    color: rgb(151, 150, 150);
+}

@@ -1,0 +1,76 @@
+<html>
+<head>
+  <title>TravelBloom</title>
+  <link rel="stylesheet" href="./travel_recommendation.css">
+</head>
+<body>
+    <nav class="navigation">
+        <ul>
+            <li><a href="#home" class="active" onClick="hide('home')">Home</a></li>
+            <li><a href="#about" onClick="hide('about')">About</a></li>
+            <li><a href="#contact" onClick="hide('contact')">Contact Us</a></li>
+            
+            <button id="btnClear" type="submit" style="float:right">Reset</button>
+            <button id="btnSearch" type="submit" style="float:right">Search</button>
+            <input type="text" id="search" style="float:right" name="Enter a dsetination or keyword">
+        </ul>
+    </nav>
+    <div class="navigationwrapper">
+        <div id="home" class="navigationcontainer">
+            <div id="content1">
+                <div id="info"> EXPLORE </br>DREAM </br>DESTINATION</div> 
+                </br>
+                </br>
+                </br>
+                </br>
+                <div id="info2"> It encourages exploration of unfamiliar</br>
+                    territories, embracing diverse cultures and</br>
+                    landscapes, while pursuing the desired</br>
+                    destination that captivates the heart and</br>
+                    ignites a sense of wonder.
+                </div> 
+            </div>
+            <div id="content2">
+                <div id="contentList">
+                </div>
+            </div> 
+        </div> 
+        <div id="about" class="navigationcontainer hide">
+            <div id="content1">
+                </br>
+                </br>
+                </br>
+                </br>
+                <div id="info"> ABOUT US</div> 
+            </div>
+        </div> 
+        <div id="contact" class="navigationcontainer hide">
+            <div id="content1">
+                </br>
+                </br>
+                </br>
+                </br>
+                <div id="info"> CONTACT US</div> 
+            </div>
+            <div id="content3">
+                </br></br></br></br></br>
+                <div id="infoContact">
+                    </br>
+                    <label> Name: </label>
+                    </br></br>
+                    <input type="text" style="width:350px" id="name">
+                    </br></br>
+                    <label> Email: </label>
+                    </br></br>
+                    <input type="text" style="width:350px" id="email">
+                    </br></br>
+                    <label> Message: </label>
+                    </br></br>
+                    <textarea name="textarea" style="width:350px;height:150px;"></textarea>
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+<script src="./travel_recommendation.js"></script>
+</body>
+</html>
